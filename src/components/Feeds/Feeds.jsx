@@ -24,8 +24,10 @@ const Feeds = () => {
         ))}
       </section>
 
-      <section className="w-[full] flex justify-center pt-5">
-        <PostCard />
+      <section className="w-[full] flex flex-col  justify-center pt-5 space-y-5">
+        {[1, 2, 3, 4, 5].map((post) => (
+          <PostCard key={post} />
+        ))}
       </section>
     </div>
   );

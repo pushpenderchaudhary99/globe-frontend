@@ -36,7 +36,7 @@ const Homepage = () => {
           </Routes>
         </Grid>
         <Grid item lg={3} className="relative">
-          <div className="sticky top-0 w-full">
+          <div className=" top-0 w-full">
             <HomeRight />
           </div>
         </Grid>
