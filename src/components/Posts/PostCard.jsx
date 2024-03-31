@@ -69,6 +69,7 @@ const PostCard = () => {
         />
       </div>
       {/* Post Action Buttons */}
+      <div className="flex align"></div>
       <CardActions>
         <IconButton>
           <FavoriteBorderIcon sx={{ fontSize: "1.9rem" }} />
@@ -80,7 +81,7 @@ const PostCard = () => {
           <SendIcon sx={{ fontSize: "1.9rem" }} />
         </IconButton>
       </CardActions>
-      <div className="pl-5">
+      <div className="flex item-start">
         <AvatarGroup
           max={4}
           sx={{
