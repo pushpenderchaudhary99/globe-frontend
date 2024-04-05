@@ -38,7 +38,7 @@ const PostCard = () => {
   };
 
   return (
-    <Card sx={{ maxWidth: "30rem" }}>
+    <Card sx={{ maxWidth: "35rem" }}>
       <CardHeader
         avatar={
           <Avatar src="https://1.bp.blogspot.com/-3Ggysu81LSk/XFHOh3yROPI/AAAAAAADdqQ/A_XWLF_Rus8QQeS-N0WgdgL_3i08bLCNQCLcBGAs/s640/1AU4Y3T.jpg" />
@@ -63,7 +63,7 @@ const PostCard = () => {
           alt="Post"
           sx={{
             height: "30rem",
-            width: "30rem",
+            width: "100%",
             objectFit: "cover",
           }}
         />
