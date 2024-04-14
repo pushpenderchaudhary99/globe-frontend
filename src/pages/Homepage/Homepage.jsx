@@ -35,11 +35,11 @@ const Homepage = () => {
             <Route path="/chats" element={<Chats />} />
           </Routes>
         </Grid>
-        <Grid item lg={3} className="relative">
-          <div className=" top-0 w-full">
+       { location.pathname==="/"&&<Grid item lg={3} className="relative">
+          <div className=" sticky top-0 w-full">
             <HomeRight />
           </div>
-        </Grid>
+        </Grid>}
       </Grid>
     </div>
   );
